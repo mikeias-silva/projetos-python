@@ -7,10 +7,9 @@ v = int(input("Quantos vetores deseja gerar? "))
 for t in range(v):
     x = np.random.randn(l, d).astype('f')
     print("\n___________")
-    print("\nmatriz",t+1 )
+    print("\nmatriz", t+1)
     print(x)
     
-
     for i in range(l):
         for j in range(d):
             pos = x[i, j]
@@ -18,8 +17,7 @@ for t in range(v):
             x[i, j] = quad
         
         
-
-    print("\nMatriz", t+1,"ao quadrado")
+    print("\nMatriz", t+1, "ao quadrado")
     print(x)
 
 
