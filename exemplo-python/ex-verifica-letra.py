@@ -21,3 +21,4 @@ while(verdadeiro):
     if verdadeiro == 0:
         print("Adeus ;(")
         break
+    
